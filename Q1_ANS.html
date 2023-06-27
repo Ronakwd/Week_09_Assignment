@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #f0eeee;
+        }
+        .container{
+            background-color: #ffffff;
+            width: 400px;
+            height: 250px;
+            margin: 100px auto;
+            border-radius: 5px;
+            padding: 0px 20px;
+        }
+        .container h1{
+            font-size: 1.5rem;
+            padding-top: 25px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .container #username{
+            width: 360px;
+            padding: 10px 0px;
+            margin-bottom: 15px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #c9c8c8;
+        }
+        .container #password{
+            width: 360px;
+            padding: 10px 0px;
+            margin-bottom: 35px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #c9c8c8;
+        }
+        .container .btn{
+            display: flex;
+            justify-content: center;
+        }
+        .container .btn button{
+            color: #ffffff;
+            border: none;
+            outline: none;
+            background-color: #66a4e6;
+            padding: 10px 150px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Login</h1>
+            <label for="username"></label>
+            <input type="text" id="username" placeholder="Username" />
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="Password" />
+            <div class="btn">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
